@@ -11,7 +11,7 @@ lerna-debug.log*
 node_modules/
 
 # Build artifacts
-frontend/dist/
+dist/
 dist-ssr/
 *.local
 *.js
@@ -38,7 +38,7 @@ dist-ssr/
 .env.*.local
 
 # IDE-specific (specific to frontend folder)
-frontend/.vscode/*
+.vscode/*
 *.iml
 *.ipr
 *.iws
