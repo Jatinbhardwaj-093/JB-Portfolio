@@ -1,0 +1,62 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build artifacts
+frontend/dist/
+dist-ssr/
+*.local
+*.js
+*.vue.js
+*.d.ts
+
+# TypeScript specific
+*.tsbuildinfo
+
+# IDE and editor configurations
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE-specific (specific to frontend folder)
+frontend/.vscode/*
+*.iml
+*.ipr
+*.iws
+__MACOSX/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional Stylelint cache
+.stylelintcache
+
+# Optional Prettier cache
+.prettiercache
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
