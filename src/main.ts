@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
-// Import Tailwind before other styles
+
 import './assets/styles/tailwind.css';
 import './assets/styles/global.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';

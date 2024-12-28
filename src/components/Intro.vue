@@ -25,7 +25,7 @@ onMounted(() => {
   <div class="relative">
     <!-- Mobile version -->
     <div
-      class="block lg:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] sm:w-[80%] md:w-[70%]"
+      class="block lg:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 w-[90%] sm:w-[80%] md:w-[70%] mt-2"
     >
       <p
         class="text-2xl sm:text-3xl text-black font-bold dark:text-white mb-4"
